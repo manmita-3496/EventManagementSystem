@@ -1,0 +1,21 @@
+<div class="container">
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>DOB</th>
+            <th>Address</th>
+        </tr>
+        @for(customer of allCustomerList;track customer){
+            <tr>
+                <td>{{customer.firstName}} {{customer.lastName}}</td>
+                <td>{{customer.emailAddress}}</td>
+                <td>{{customer.dateOfBirth | date:'d/MM/y'}}</td>
+                <td>{{customer.state}}</td>
+            </tr>
+        }
+    </table>
+    <h2>Customers</h2>
+    
+</div>

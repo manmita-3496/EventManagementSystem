@@ -1,0 +1,8 @@
+<form #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)">
+    <div>
+        <input type="text" ngModel name="firstName" placeholder="First Name*"><br>
+        <input type="text" ngModel name="lastName" placeholder="Last Name*"><br>
+        <input type="text" ngModel name="emailAddress" placeholder="Email Address*"><br>
+    </div>
+   <input type="submit" value="Validate">
+</form> 

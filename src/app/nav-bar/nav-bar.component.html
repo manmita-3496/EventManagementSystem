@@ -1,0 +1,12 @@
+<div class="top">
+    <h1>Hitachi Sim Activation Portal</h1>
+</div>
+
+<div class="nav">
+    <div *ngFor="let nav of navs">
+        <a routerLink={{nav.link}} class="component" >
+            <mat-icon>{{nav.icon}}</mat-icon>
+            <p>{{nav.title}}</p>
+        </a>
+    </div>
+</div>

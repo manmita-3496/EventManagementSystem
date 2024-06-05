@@ -1,0 +1,36 @@
+.top{
+    margin-top: -1.7%;
+    margin-left: -0.7%;
+    margin-right: -0.%;
+    padding-bottom: -0.6%;
+    background-color:rgb(20, 15, 99);
+    color: white;
+    align-content: center;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1% ;
+    margin-left: 2%;
+}
+.nav{
+    width: 15%;
+    height: 89.5vh;
+    background-color:rgb(20, 15, 99);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.component{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor:pointer;
+    color: white;
+}
+p{
+    margin-left: 7%;
+}
+

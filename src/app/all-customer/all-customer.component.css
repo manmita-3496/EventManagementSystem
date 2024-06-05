@@ -1,0 +1,27 @@
+*{
+    margin-top: -16.7%;
+    margin-left: 7.8%;
+    
+}
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+table{ 
+    width: 87%;
+    border-collapse: collapse; /* Ensure borders are joined */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adding a border to th and td */
+}
+th{
+    background-color: rgba(241, 155, 26, 0.822);
+    
+}
+td{  
+    border-bottom: outset;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<div class="container3">
+    <h2>Valid Customer</h2>
+    <form #usersForm="ngForm" (ngSubmit)="getUserFormData(usersForm.value)">
+        <mat-form-field class="example-full-width">
+            <input matInput type="text" ngModel name="sim_number" placeholder="Sim Number*"><br>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput type="text" ngModel name="service_number" placeholder="Service Number*"><br>
+        </mat-form-field>
+        <button mat-flat-button type="submit" id="button">Check Offers</button>
+    </form>
+</div>cd
+<div class="container">
+    <mat-card *ngIf="isVisible" class="example-card">
+        <mat-card-header>
+        <mat-card-title style="color: red;">{{simoffer.cost | currency:"Rs."}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+        <p><b>{{simoffer.data_qty}} </b>data & unlimited calls</p>
+        <p><b>{{simoffer.call_qty}} </b>call quantity</p>
+        <p><b>{{simoffer.duration}} </b>call duration</p>
+        </mat-card-content>
+    </mat-card>
+</div>
